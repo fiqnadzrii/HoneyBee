@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HoneyBee" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/honey_yellow</item>
+        <item name="colorOnPrimary">@color/bee_black</item>
+        <item name="colorSecondary">@color/bee_orange</item>
+        <item name="colorOnSecondary">@color/bee_black</item>
+        <item name="android:colorBackground">@color/bee_white</item>
+        <item name="colorSurface">@color/bee_white</item>
+        <item name="colorOnSurface">@color/bee_black</item>
+        <item name="android:fontFamily">sans-serif-rounded</item>
+        <!-- Add playful, kid-friendly touches with color and font -->
+    </style>
+
+    <style name="Theme.HoneyBee" parent="Base.Theme.HoneyBee" />
+</resources>
